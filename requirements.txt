@@ -1,0 +1,11 @@
+tweepy
+numpy
+matplotlib
+textblob
+poloniex
+dataset
+pymongo
+json
+mongodb
+mongodb-clients
+websocket-client

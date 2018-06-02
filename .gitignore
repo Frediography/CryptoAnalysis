@@ -1,0 +1,9 @@
+*.db
+logins.py
+__pycache__
+*.pyc
+.DS_Store
+p3venv
+venv
+useful.py
+config.py
