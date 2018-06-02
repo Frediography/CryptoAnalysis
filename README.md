@@ -16,7 +16,7 @@ You will need to create a logins.py and a config.py.
 - Thanks to https://github.com/s4w3d0ff/python-poloniex for the poloniex api wrapper 
 
 ## logins.py
-'''python
+```python
 #LOGIN DOC:
 #* Twitter API Keys
 #* Poloniex API Keys
@@ -37,11 +37,11 @@ BACKUP_EMAIL_ADDRESS = "bob@gmail.com"
 #Mongo DB URL etc.
 # Use below for the mongodb as a service as well as if you've set it up locally
 mongodburl = "mongodb://localhost:27017"
-'''
+```
 
 
 ## config.py
-'''python
+```python
 #CONFIG DOCUMENT
 #* tradepair in poloniex format
 #* MongoDB datbase collection
@@ -50,4 +50,4 @@ mongodburl = "mongodb://localhost:27017"
 tradepair = 'USDT_ETH'
 # the collection within the mongodb that you're using
 databasecollection = 'testcollection'
-'''
+```
