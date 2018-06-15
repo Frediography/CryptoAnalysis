@@ -53,7 +53,7 @@ def main():
 
     # Get the ticker from Poloniex #
     ################################
-    polo = Poloniex() # Keep this in hear so the python script closes
+    polo = Poloniex() # Keep this in here so the python script closes
     ticker = dict(polo.returnTicker()[tradepair])
     if debug == 1:
         print('------------------------------------------DEBUG')
